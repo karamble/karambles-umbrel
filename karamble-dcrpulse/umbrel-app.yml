@@ -5,7 +5,7 @@ tagline: Full Decred node with watch-only wallet and database-free block explore
 category: finance
 version: "1.0.0"
 port: 8080
-icon: ""
+icon: https://raw.githubusercontent.com/karamble/karambles-umbrel/master/karamble-dcrpulse/images/dcrpulse.svg
 description: >-
   Decred Pulse is a comprehensive dashboard for running a full Decred node.
   
@@ -41,7 +41,10 @@ website: https://decred.org
 submitter: karamble
 repo: https://github.com/karamble/dcrpulse
 support: https://github.com/karamble/dcrpulse/issues
-gallery: []
+gallery:
+  - https://raw.githubusercontent.com/karamble/karambles-umbrel/master/karamble-dcrpulse/images/screenshot_1.jpg
+  - https://raw.githubusercontent.com/karamble/karambles-umbrel/master/karamble-dcrpulse/images/screenshot_2.jpg
+  - https://raw.githubusercontent.com/karamble/karambles-umbrel/master/karamble-dcrpulse/images/screenshot_3.jpg
 dependencies: []
 releaseNotes: ""
 path: ""
