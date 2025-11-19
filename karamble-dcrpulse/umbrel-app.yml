@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: dcrpulse
+id: karamble-dcrpulse
 name: Decred Pulse
 tagline: Full Decred node with watch-only wallet and database-free block explorer
 category: finance
