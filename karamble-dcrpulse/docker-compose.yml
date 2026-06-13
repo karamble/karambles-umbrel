@@ -95,7 +95,7 @@ services:
       start_period: 300s
 
   brclientd:
-    image: ghcr.io/karamble/dcrpulse-brclientd:latest@sha256:c395ccc5abf4171780223a1f1839f5cf69d378e3d521a55f279d1208245e3a4b
+    image: ghcr.io/karamble/dcrpulse-brclientd:latest@sha256:1b055286b0e639c5a9044bd1da1d9029e4c57c0c6048a69268654ede26ce89f0
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
@@ -131,7 +131,7 @@ services:
         condition: service_completed_successfully
 
   dashboard:
-    image: ghcr.io/karamble/dcrpulse-dashboard:latest@sha256:a6246db61a447f80cdbb049897928a56b7f10ebb01edd1bc755db76c4cb51525
+    image: ghcr.io/karamble/dcrpulse-dashboard:latest@sha256:7b46bbfa1a00f839afe3626b4e7426799e1d862572cf99d14cd647e5bc4815b3
     user: "1000:1000"
     restart: on-failure
     volumes:
